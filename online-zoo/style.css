@@ -1049,3 +1049,47 @@ li.footer__social-elements__item {
     background: url(assets/icons/pointActive_icon.svg) no-repeat center;
 }
 
+/* cam-panda */
+.promo__panda {
+    background-color: #ffffff;
+    height: 764px;
+    position: relative;
+}
+
+.promo__panda-stream {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+}
+
+ul.promo__panda-elements {
+    margin: 0;
+    margin-left: 30px;
+    padding: 0;
+    width: 99px;
+    height: 652px;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    list-style-type: none;
+}
+
+li.promo__panda-item {
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    border: 1px solid #f9804b;
+    margin-top: 16px;
+}
+
+li.promo__panda-item a {
+    cursor: pointer;
+}
+
+li.promo__panda-item:nth-child(1) {
+    background: url(assets/icons/gorilla_icon.svg) no-repeat center;
+    background-color: #ffffff;
+}
+
+li.promo__panda-item:nth-child(2) {
+    background: url(assets/icons/alligator_icon.svg) no-repeat center;
+    background-color: #ffffff;
+}
