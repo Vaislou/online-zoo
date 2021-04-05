@@ -1062,9 +1062,22 @@ li.footer__social-elements__item {
     flex-direction: row;
 }
 
+.promo__panda-video {
+    margin: 0;
+    margin-left: 89px;
+}
+
+.promo__panda-video__title {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 120%;
+    color: #333B41;
+}
+
 ul.promo__panda-elements {
     margin: 0;
     margin-left: 30px;
+    margin-top: 57.5px;
     padding: 0;
     width: 99px;
     height: 652px;
@@ -1077,11 +1090,13 @@ li.promo__panda-item {
     height: 77px;
     border-radius: 50%;
     border: 1px solid #f9804b;
-    margin-top: 16px;
+    margin-top: 12px;
 }
 
-li.promo__panda-item a {
-    cursor: pointer;
+.promo__panda-item__link, .promo__gorilla-item__link {
+    display: block;
+    width: 77px;
+    height: 77px;
 }
 
 li.promo__panda-item:nth-child(1) {
@@ -1092,4 +1107,351 @@ li.promo__panda-item:nth-child(1) {
 li.promo__panda-item:nth-child(2) {
     background: url(assets/icons/alligator_icon.svg) no-repeat center;
     background-color: #ffffff;
+}
+
+li.promo__panda-item:nth-child(3) {
+    background: url(assets/icons/panda_icon.svg) no-repeat center;
+    background-color: #ffffff;
+}
+
+li.promo__panda-item:nth-child(4) {
+    background: url(assets/icons/eagle_icon.svg) no-repeat center;
+    background-color: #ffffff;
+}
+
+li.promo__panda-item:nth-child(5) {
+    background: url(assets/icons/sloth_icon.svg) no-repeat center;
+    background-color: #ffffff;
+}
+
+li.promo__panda-item:nth-child(6) {
+    background: url(assets/icons/penguin_icon.svg) no-repeat center;
+    background-color: #ffffff;
+}
+
+li.promo__panda-item:nth-child(7) {
+    background: url(assets/icons/arrowdown_icon.svg) no-repeat center;
+    background-color: #ffffff;
+    margin-bottom: 0;
+}
+
+li.promo__panda-item__active {
+    background: url(assets/icons/pandaActive_icon.svg) no-repeat center;
+    background-color: #ffffff;
+}
+
+.promo__panda-slider {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.promo__panda-slider__left {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background-color:#f9804b;
+    position: relative;
+    left: 80px;
+}
+
+.promo__panda-slider__left img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.promo__panda-slider__left:hover {
+    background-color: #4b9200;
+    cursor: pointer;
+}
+
+.promo__panda-slider__left a {
+    display: block;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+}
+
+.promo__panda-slider__right {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background-color:#f9804b;
+    position: relative;
+    right: 80px;  
+}
+
+.promo__panda-slider__right img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.promo__panda-slider__right a {
+    display: block;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+}
+
+.promo__panda-slider__right:hover {
+    background-color: #4b9200;
+    cursor: pointer;
+}
+
+.promo__panda-slider__cards {
+    display: flex;
+}
+
+.promo__panda-slider__card {
+    margin-right: 30px;
+}
+
+.promo__panda-slider__card:last-child {
+    margin-right: 0;
+}
+
+.panda-descr {
+    margin-top: 500px;
+    position: relative;
+}
+
+.panda-descr__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    color: #4b9200;
+}
+
+.panda-descr__card {
+    margin-top: 20px;
+    display: flex;
+}
+
+.panda-descr__card-info {
+    margin-left: 70px;
+}
+
+.panda-descr__card-info__text {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    color: #ababab;
+}
+
+.panda-descr__card-info__text span {
+    color:#4b9200;
+}
+
+.panda-descr__card-info__button {
+    margin-top: 40px;
+}
+
+.panda-descr__card-info__btn {
+    width: 298px;
+    height: 54px;
+    background-color: #f9804b;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.panda-descr__card-info__btn:hover {
+    background-color: #4b9200;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 48px;
+}
+
+.panda-descr__text span {
+    color: #4b9200;
+}
+
+.panda-descr__text-line {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.panda-descr__text-line__title {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.panda-descr__text-line__subtitle {
+    margin-left: 8px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.panda-descr__text-line__subtitle a {
+    color: #4b9200;
+}
+
+.panda-descr__text-general, .panda-descr__text-features, .panda-descr__text-lifestyle, .panda-descr__text-habitat, .panda-descr__text-diet {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000; 
+    margin-bottom: 10px;
+}
+
+.panda-descr__text-general__info, .panda-descr__text-features__info, .panda-descr__text-lifestyle__info, .panda-descr__text-habitat__info, .panda-descr__text-diet__info {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.panda-descr__text-btn {
+    width: 129px;
+    height: 42px;
+    background-color: #f1f3f2;
+    border-radius: 5px;
+    border: 1px solid #333b41;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+}
+
+.panda-descr__text-btn:hover {
+    background-color: #4b9200;
+}
+
+.panda__strelitzia {
+    position: absolute;
+    left: -220px;
+    top: 1580px;
+    z-index: -1;
+}
+
+.panda__leav {
+    position: absolute;
+    top: 1580px;
+    right: -220px;
+    z-index: -1;
+}
+
+.gorilla__strelitzia {
+    position: absolute;
+    left: -220px;
+    top: 2730px;
+    z-index: -1;
+}
+
+.gorilla__leav {
+    position: absolute;
+    top: 2730px;
+    right: -220px;
+    z-index: -1;
+}
+
+.eagle__strelitzia {
+    position: absolute;
+    left: -220px;
+    top: 1460px;
+    z-index: -1;
+}
+
+.eagle__leav {
+    position: absolute;
+    top: 1460px;
+    right: -220px;
+    z-index: -1;
+}
+
+.alligator__strelitzia {
+    position: absolute;
+    left: -220px;
+    top: 1560px;
+    z-index: -1;
+}
+
+.alligator__leav {
+    position: absolute;
+    top: 1560px;
+    right: -218px;
+    z-index: -1;
+}
+
+.panda__bottom{
+    z-index: 3;
+    margin-top: 173px;
+    background: url(assets/img/pandabottom_img.jpg) no-repeat center;
+    height: 390px;
+    position: relative;
+}
+
+.gorilla__bottom {
+    background: url(assets/img/gorillabottomonline_img.png) no-repeat center;
+    height: 390px;
+    position: relative;
+    z-index: 3;
+    margin-top: 173px;
+}
+
+.eagle__bottom {
+    background: url(assets/img/eagleBottomonline_img.png) no-repeat center;
+    height: 390px;
+    position: relative;
+    z-index: 3;
+    margin-top: 173px;
+}
+
+.alligator__bottom {
+    background: url(assets/img/Alligatorbot.png) no-repeat center;
+    height: 390px;
+    position: relative;
+    z-index: 3;
+    margin-top: 173px;
+}
+
+.panda__bottom-button {
+    position: absolute;
+    top: 276px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.panda__bottom-btn {
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.panda__bottom-btn:hover {
+    background: #4b9200;
 }
